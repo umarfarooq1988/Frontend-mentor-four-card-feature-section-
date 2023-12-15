@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Black+Ops+One&family=Cabin&family=Caveat&family=Libre+Baskerville&family=Outfit:wght@800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500&display=swap');
+
+   * {
+    padding: 0;
+    margin: 0;
+   }
+   
+   body {
+      font-family: 'poppins', sans-serif;
+      
+    }
+
+    @media only screen and 
+    (max-width: 768px) {
+        .main {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media only screen and 
+    (max-width: 425px) {
+        body {
+            font-size: 13px;
+        }
+        header h1 {
+            font-size: 20px;
+        }
+        header h2 {
+            font-size: 20px;
+        }
+        .box {
+            padding: 18px;
+        }
+        .text {
+            padding-bottom: 30px;
+        }
+    }
+

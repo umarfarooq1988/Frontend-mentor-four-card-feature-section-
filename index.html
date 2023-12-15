@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+
+    }
+  </style>
+</head>
+
+<body class="bg-[#fafafa] text-[#a3a5ae] text-xs">
+  <div class="conrainer max-w-5xl m-auto pt-12 pb-12 pl-7 pr-7">
+    <header class="text-center">
+      <h1 class="text-3xl">Reliable, efficient delivery</h1>
+      <h2 class="text-3xl font-bold text-[#4c4e61]">Powered by Technology</h2>
+      <p class="max-w-2xl m-auto mt-3">Our Artificial Intelligence powered tools use millions of project data <br>
+        points
+        to ensure that your project is successful</p>
+    </header>
+    <section class="main grid grid-cols-3 gap-x-5 mt-20">
+      <div class="box box-1 bg-white rounded-2xl p-8 border-t-2 border-[#45d3d3] self-center">
+        <div class="text">
+          <h4 class="text-xl font-bold text-[#4c4e61] mb-3">Supervisor</h4>
+          <p class="text-[12px]">Monitors activity to identify project roadblocks</p>
+        </div>
+
+        <img src="./images/icon-supervisor.svg" class="float-right" alt="Supervisor">
+
+      </div>
+      <div class="box-container flex flex-col gap-7">
+        <div class="box box-2 bg-white rounded-2xl p-8 border-t-2 border-[#ea5353] ">
+          <div class="text">
+            <h4 class="text-xl font-bold text-[#4c4e61] mb-3">Team Builder</h4>
+            <p class="text-[12px]">Scans our talent network to create the optimal team for your project</p>
+          </div>
+          <img src="./images/icon-team-builder.svg" class="float-right" alt="Builder">
+        </div>
+        <div class="box box-3 bg-white rounded-2xl p-8 border-t-2 border-[#fcaf4a]">
+          <div class="text">
+            <h4 class="text-xl font-bold text-[#4c4e61] mb-3">Karma</h4>
+            <p class="text-[12px]">Regularly evaluates our talent to ensure quality</p>
+          </div>
+          <img src="./images/icon-karma.svg" class="float-right" alt="Karma">
+        </div>
+      </div>
+      <div class="box box-4 bg-white rounded-2xl p-8 border-t-2 border-[#549ef2] self-center">
+        <div class="text">
+          <h4 class="text-xl font-bold text-[#4c4e61] mb-3">Calculator</h4>
+          <p class="text-[12px]">Uses data from past projects to provide better delivery estimates</p>
+        </div>
+        <img src="./images/icon-calculator.svg" class="float-right" alt="Calculator">
+      </div>
+    </section>
+  </div>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Umar Farooq</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
